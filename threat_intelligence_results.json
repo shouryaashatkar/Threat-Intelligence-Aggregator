@@ -1,0 +1,28 @@
+{
+    "project": "Threat Intelligence Aggregator",
+    "generated_at_utc": "2026-10-20T16:56:03.232922+00:00",
+    "data_note": "Demonstration indicators; not a live OTX pulse feed. VirusTotal results describe the returned analysis data and do not by themselves prove an indicator is safe.",
+    "total_indicators": 1,
+    "results": [
+        {
+            "indicator": "50.16.16.211",
+            "type": "IPv4",
+            "source": "Feodo Tracker live feed",
+            "feed_status": "online",
+            "hostname": "ec2-50-16-16-211.compute-1.amazonaws.com",
+            "malware": "QakBot",
+            "otx_reputation": 0,
+            "virustotal": {
+                "malicious": 1,
+                "suspicious": 3,
+                "harmless": 54,
+                "undetected": 34
+            },
+            "vt_malicious": 1,
+            "vt_suspicious": 3,
+            "vt_reputation": -1,
+            "vt_link": "https://www.virustotal.com/gui/ip-address/50.16.16.211",
+            "vt_note": "Enriched successfully"
+        }
+    ]
+}
